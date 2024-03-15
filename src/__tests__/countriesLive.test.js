@@ -16,4 +16,4 @@ test('getAll returns data from the API', async () => { //because it is async fun
 
 })
 
-// whatever we import we can access with dot notation
+// whatever we export we can access with dot notation countries.getAll()
