@@ -35,7 +35,9 @@ const Login = () => {
         placeholder="Password"
         onChange={(e) => setPassword(e.target.value)}
       />
-      <Button onClick={login}>Login</Button>
+      <Button data-id={"login-button"} onClick={login}>
+        Login
+      </Button>
     </div>
   );
 };
