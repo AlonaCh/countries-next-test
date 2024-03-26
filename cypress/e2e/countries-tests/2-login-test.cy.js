@@ -1,6 +1,6 @@
 describe("Navigate to Login and attempt login", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:5174");
+        cy.visit("http://localhost:5175");
         cy.get("button").contains("Countries").click();
     });
 
